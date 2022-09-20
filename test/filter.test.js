@@ -12,13 +12,13 @@ test('filterAu returns countries that contain au', () => {
   ]);
 });
 
-test.skip('filterYoungDogs returns dogs that are less than 2 years old', () => {
+test('filterYoungDogs returns dogs that are less than 2 years old', () => {
   expect(filterYoungDogs(dogs)).toStrictEqual([
     { name: 'Spot', age: 2 },
     { name: 'Rover', age: 1 },
   ]);
 });
 
-test.skip('getYoungDogNames returns names of dogs that are less than 2 years old', () => {
+test('getYoungDogNames returns names of dogs that are less than 2 years old', () => {
   expect(getYoungDogNames(dogs)).toStrictEqual(['Spot', 'Rover']);
 });
